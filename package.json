@@ -1,0 +1,27 @@
+{
+  "name": "todo-liste",
+  "version": "1.0.0",
+  "description": "Ce projet consiste à développer une application web de gestion de listes de tâches simple et persistante. Les utilisateurs pourront créer des tâches avec des détails comme le titre, la description, la date d'échéance et la priorité, les organiser par projets personnalisables, et visualiser leurs tâches avec des indications de priorité. L'interface intuitive permettra de consulter, éditer et supprimer des tâches, tandis que l'utilisation de l'API Web Storage assurera la sauvegarde locale des données, garantissant leur disponibilité même après rafraîchissement de la page. Ce projet met en œuvre des technologies modernes telles que JavaScript (ES6+), HTML5, CSS3, et webpack pour une gestion efficace des modules et des dépendances.",
+  "homepage": "https://ahmedchlk.github.io/",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "gh-pages": "^6.1.1",
+    "html-webpack-plugin": "^5.6.0",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.2"
+  }
+}
