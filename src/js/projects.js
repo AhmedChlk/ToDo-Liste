@@ -9,5 +9,11 @@ class project{
     delTodo(index){
         this.todos.splice(index, 1);
     }
+    getTodos(){
+        return this.todos;
+    }
+    getTodo(index){
+        return todos[index];
+    }
 }
 export{project}
